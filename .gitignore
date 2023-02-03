@@ -57,3 +57,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+make env
+source .venv/bin/activate
+make setup
+make test
